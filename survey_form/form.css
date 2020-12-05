@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("bg.jpg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(10,04,60,0.5);
+    padding-top: 50px;   
+    
+}
+div.container > *{
+    margin-left: 40px;
+    padding:10px;
+}
+.input_width{
+    width:80% ;
+}
+#submit{
+    background-color: #f2d974 ;
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-bottom: 25px;
+
+}
+#dropdown{
+    height:40px;
+    width:150%;
+}
+
